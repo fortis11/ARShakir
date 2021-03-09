@@ -1,5 +1,7 @@
-
-let { src, dest } = require("gulp");
+let {
+	src,
+	dest
+} = require("gulp");
 let gulp = require("gulp");
 let browsersync = require("browser-sync").create();
 let fileinclude = require("gulp-file-include");
@@ -34,14 +36,14 @@ let path = {
 		css: source_folder + "/scss/style.scss",
 		js: source_folder + "/js/script.js",
 		img: source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
-		fonts: source_folder + "/fonts/"
+		fonts: source_folder + "/fonts/*.{woff,woff2}"
 	},
 	watch: {
 		html: source_folder + "/**/*.html",
 		css: source_folder + "/scss/**/*.scss",
 		js: source_folder + "/js/**/*.js",
 		img: source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
-		fonts: source_folder + "/fonts/**/*"
+		fonts: source_folder + "/fonts/**/*.{woff,woff2}"
 	},
 	clean: "./" + result_folder + "/"
 }
@@ -136,7 +138,9 @@ function img() {
 		.pipe(
 			imagemin({
 				progressive: true,
-				svgoPlugins: [{ removeViewBox: false }],
+				svgoPlugins: [{
+					removeViewBox: false
+				}],
 				interlaced: true,
 				optimizationLevel: 3 // 0 to 7
 			})
