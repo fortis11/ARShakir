@@ -1,0 +1,25 @@
+{
+	"name": "newproject",
+	"version": "1.0.0",
+	"description": "newproject",
+	"main": "index.html",
+	"author": "fort1s",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "latest",
+		"del": "latest",
+		"gulp": "latest",
+		"gulp-autoprefixer": "latest",
+		"gulp-clean-css": "latest",
+		"gulp-file-include": "latest",
+		"gulp-group-css-media-queries": "latest",
+		"gulp-imagemin": "latest",
+		"gulp-newer": "latest",
+		"gulp-plumber": "latest",
+		"gulp-rename": "latest",
+		"gulp-sass": "latest",
+		"gulp-uglify-es": "latest",
+		"imagemin-webp": "latest",
+		"plumber": "^0.4.8"
+	}
+}
