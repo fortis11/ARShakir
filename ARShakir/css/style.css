@@ -445,24 +445,18 @@ body {
           flex: 1 1 50%;
 }
 
-.about-companys__group {
+.about-companys {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-left: -62px;
-  margin-top: 106px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 106px 60px 0 60px;
 }
 
-.about-companys__item {
-  padding-left: 73px;
-  opacity: 0.5;
+.companys-item {
+  opacity: 0.3;
 }
 
 .-s_title {

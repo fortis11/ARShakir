@@ -125,22 +125,14 @@ body {
 	}
 
 	&-companys {
-
-		&__group {
-			display: flex;
-			flex-direction: row;
-			justify-content: center;
-			margin-left: -62px;
-			margin-top: 106px;
-		}
-
-		&__item {
-			padding-left: 73px;
-			opacity: 0.5;
-
-
-		}
+		display: flex;
+		justify-content: space-between;
+		padding: 106px 60px 0 60px;
 	}
+}
+
+.companys-item {
+	opacity: 0.3;
 }
 
 
