@@ -32,7 +32,7 @@ body {
 	width: 36px;
 	height: 36px;
 
-	margin-right: 44px;
+	margin-right: 33px;
 }
 
 .nav {
@@ -41,6 +41,10 @@ body {
 	}
 
 	&__item {
+		padding: 0 11px;
+	}
+
+	&__text {
 		color: #b5b5b5;
 		font-family: "Gilroy";
 		font-size: 12px;
@@ -49,7 +53,6 @@ body {
 		letter-spacing: 2px;
 		line-height: 20px;
 		text-transform: uppercase;
-		margin-right: 22px;
 	}
 }
 
