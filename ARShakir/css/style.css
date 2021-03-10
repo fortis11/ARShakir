@@ -298,7 +298,7 @@ select {
 
 body {
   color: #b5b5b5;
-  background-color: #0f1144;
+  background-color: #121147;
 }
 
 .container {
@@ -397,7 +397,7 @@ body {
 }
 
 .about {
-  margin: 56px 0;
+  padding: 56px 0;
 }
 
 .about-us {
@@ -468,17 +468,24 @@ body {
 .-s_title {
   color: #99efd0;
   font-family: Inter;
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
 }
 
 .-s_title_about_us {
   font-size: 44px;
-  font-weight: 00;
   line-height: 50px;
   text-align: left;
   letter-spacing: -1.7px;
   margin-bottom: 20px;
+}
+
+.-s_title_choice {
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: -1.7px;
+  margin-bottom: 10px;
 }
 
 .-s_subtitle {
@@ -492,6 +499,35 @@ body {
   line-height: 22px;
   text-align: left;
   margin-bottom: 40px;
+}
+
+.-s_subtitle_choice {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 53px;
+}
+
+.-s_subtitle_choice_bottom {
+  font-family: "Gilroy";
+  color: #8476aa;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.-s_title_l2 {
+  color: #99efd0;
+  font-family: "Gilroy";
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.-s_title_l2_choice {
+  line-height: 22px;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
 .-s_subtitle_rubik {
@@ -518,4 +554,38 @@ body {
   line-height: 22px;
   text-align: left;
   margin-top: 8px;
+}
+
+.choice {
+  padding: 45px 0;
+}
+
+.choice__top {
+  padding-left: 68px;
+}
+
+.choice__bottom__icon {
+  min-width: 24px;
+  min-height: 24px;
+}
+
+.choice__bottom__text {
+  padding: 0 45px 0 30px;
+}
+
+.choice_grid-body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[2];
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 40px;
+  padding-left: 55px;
+}
+
+.choice_grid-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
