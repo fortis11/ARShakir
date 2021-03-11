@@ -81,7 +81,7 @@ body {
 	&-filled {
 		background-color: #f2994a;
 		padding: 8px 27px;
-		box-shadow: -11px 18px 37px rgba(242, 153, 74, 0.13);
+		box-shadow: -11px 18px 37px rgba(242, 153, 74, 0.23);
 
 		&__header {
 			margin-left: 20px;
@@ -92,7 +92,9 @@ body {
 			margin-right: 16px;
 		}
 
-		&__increase {}
+		&__increase {
+			padding: 14px 30px;
+		}
 	}
 }
 
@@ -141,121 +143,7 @@ body {
 }
 
 
-.-s_title {
-	color: #99efd0;
-	font-family: Inter;
-	font-weight: 700;
-	font-style: normal;
-
-	&_about_us {
-		font-size: 44px;
-		line-height: 50px;
-		text-align: left;
-		letter-spacing: -1.7px;
-		margin-bottom: 20px;
-	}
-
-	&_choice {
-		font-size: 42px;
-		line-height: 50px;
-		text-align: center;
-		letter-spacing: -1.7px;
-		margin-bottom: 10px;
-	}
-
-	&_increase {
-		font-size: 42px;
-		font-weight: 700;
-		line-height: 50px;
-		text-align: left;
-		letter-spacing: -1.7px;
-		padding-top: 52px;
-
-		& span {
-			color: #f2994a;
-		}
-	}
-}
-
-.-s_subtitle {
-	color: #8476aa;
-	font-family: "Gilroy";
-	font-size: 18px;
-	font-weight: 600;
-
-	&_about_us {
-		line-height: 22px;
-		text-align: left;
-		margin-bottom: 40px;
-	}
-
-	&_choice {
-		font-size: 16px;
-		font-weight: 400;
-		line-height: 22px;
-		text-align: center;
-		margin-bottom: 53px;
-
-		&_bottom {
-			font-family: "Gilroy";
-			color: #8476aa;
-			font-size: 14px;
-			font-weight: 600;
-			line-height: 22px;
-
-		}
-	}
-
-	&_increase {
-		font-size: 15px;
-		font-weight: 400;
-		letter-spacing: 0.5px;
-		line-height: 28px;
-		text-align: left;
-		padding: 33px 0 44px 0;
-	}
-}
-
-.-s_title_l2 {
-	color: #99efd0;
-	font-family: "Gilroy";
-	font-size: 18px;
-	font-weight: 700;
-
-	&_choice {
-		line-height: 22px;
-		text-align: left;
-		margin-bottom: 10px;
-	}
-}
-
-.-s_subtitle_l2 {}
-
-.-s_subtitle_rubik {
-	color: #8476aa;
-	font-family: Rubik;
-	font-size: 16px;
-	font-weight: 400;
-
-	&_about {
-		line-height: 22px;
-		text-align: left;
-		margin-top: 3px;
-	}
-}
-
-.-s_text_rubik {
-	color: #6d6d78;
-	font-family: Rubik;
-	font-size: 14px;
-	font-weight: 400;
-
-	&_about {
-		line-height: 22px;
-		text-align: left;
-		margin-top: 8px;
-	}
-}
+@import "-titles.scss";
 
 
 .choice {
@@ -293,7 +181,7 @@ body {
 }
 
 .increase {
-	padding: 128px 51px 128px 79px;
+	padding: 128px 51px 77px 79px;
 
 	&__content {
 		display: flex;
@@ -302,7 +190,9 @@ body {
 
 		&__right {
 			display: flex;
-			flex: 0 0 442px
+			flex: 0 0 442px;
 		}
 	}
 }
+
+@import "./-ways.scss"
