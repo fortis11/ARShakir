@@ -2,7 +2,6 @@
 	color: #99efd0;
 	font-family: Inter;
 	font-weight: 600;
-	font-style: normal;
 	letter-spacing: -1.7px;
 
 	&_about_us {
@@ -40,6 +39,13 @@
 		& span {
 			color: #f2994a;
 		}
+	}
+
+	&_ways-item {
+		font-size: 36px;
+		line-height: 42px;
+		text-align: center;
+		padding-bottom: 17px;
 	}
 }
 
@@ -88,6 +94,15 @@
 		letter-spacing: 0.2px;
 		line-height: 20px;
 		text-align: center;
+		padding-top: 34px;
+	}
+
+	&_ways-item {
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 20px;
+		text-align: center;
+		text-transform: capitalize;
 	}
 }
 

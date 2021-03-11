@@ -1,12 +1,27 @@
 .ways {
-	padding: 64px 51px 64px 70px;
+	padding: 64px 51px 64px 50px;
 
-	&__top {}
+	&__top {
+		padding-bottom: 46px;
+	}
 
-	&__bottom {}
+	&__bottom {
+		display: flex;
+		justify-content: space-between;
 
-	&__subtitle {}
+		&__item {
+			max-width: 305px;
+			padding: 0 20px;
 
+			&:first-of-type {
+				max-width: 195px;
+				padding-left: 16px;
+			}
+
+			&:last-of-type {
+				max-width: 220px;
+				padding-right: 10px;
+			}
+		}
+	}
 }
-
-.ways__content {}
