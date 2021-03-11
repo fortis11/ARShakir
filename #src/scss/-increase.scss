@@ -1,0 +1,14 @@
+.increase {
+	padding: 128px 51px 77px 79px;
+
+	&__content {
+		display: flex;
+
+		&__left {}
+
+		&__right {
+			display: flex;
+			flex: 0 0 442px;
+		}
+	}
+}

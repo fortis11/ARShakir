@@ -1,0 +1,43 @@
+.header {
+	background-image: url(../img/);
+}
+
+.header__group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 79px 0;
+
+	&__ls {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.logo {
+	width: 36px;
+	height: 36px;
+
+	margin-right: 33px;
+}
+
+.nav {
+	&__group {
+		display: flex;
+	}
+
+	&__item {
+		padding: 0 11px;
+	}
+
+	&__text {
+		color: #b5b5b5;
+		font-family: "Gilroy";
+		font-size: 12px;
+		font-weight: 600;
+		font-style: normal;
+		letter-spacing: 2px;
+		line-height: 20px;
+		text-transform: uppercase;
+	}
+}

@@ -12,187 +12,21 @@ body {
 	padding: 0 10px;
 }
 
-.header {
-	background-image: url(../img/);
-}
 
-.header__group {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 79px 0;
+@import "-header.scss";
 
-	&__ls {
-		display: flex;
-		align-items: center;
-	}
-}
 
-.logo {
-	width: 36px;
-	height: 36px;
 
-	margin-right: 33px;
-}
-
-.nav {
-	&__group {
-		display: flex;
-	}
-
-	&__item {
-		padding: 0 11px;
-	}
-
-	&__text {
-		color: #b5b5b5;
-		font-family: "Gilroy";
-		font-size: 12px;
-		font-weight: 600;
-		font-style: normal;
-		letter-spacing: 2px;
-		line-height: 20px;
-		text-transform: uppercase;
-	}
-}
-
-.button {
-	border-radius: 4px;
-	padding: 8px 27px;
-	color: #ffffff;
-	font-family: Rubik;
-	font-size: 12px;
-	font-weight: 500;
-	letter-spacing: 2px;
-	line-height: 20px;
-	text-align: center;
-	text-transform: uppercase;
-
-	&-border {
-		background-color: rgba(0, 0, 0, 0);
-		border: 1px solid #f2994a;
-		color: #f2994a;
-
-		&__about-us {
-			padding: 13px 57px;
-		}
-	}
-
-	&-filled {
-		background-color: #f2994a;
-		padding: 8px 27px;
-		box-shadow: -11px 18px 37px rgba(242, 153, 74, 0.23);
-
-		&__header {
-			margin-left: 20px;
-		}
-
-		&__about-us {
-			padding: 13px 30px;
-			margin-right: 16px;
-		}
-
-		&__increase {
-			padding: 14px 30px;
-		}
-	}
-}
-
-.about {
-	padding: 56px 0;
-
-	&-us {
-		display: flex;
-
-		&__group {
-			display: flex;
-			flex: 1 1 50%;
-			flex-direction: column;
-			padding-left: 5px;
-
-			&_inner {
-				margin-top: 58px;
-				display: flex;
-
-				&_video {
-					height: 80px;
-					width: 140px;
-				}
-
-				&_other {
-					margin-left: 20px;
-				}
-			}
-		}
-
-		&__photo {
-			display: flex;
-			flex: 1 1 50%;
-		}
-	}
-
-	&-companys {
-		display: flex;
-		justify-content: space-between;
-		padding: 106px 60px 0 60px;
-	}
-}
-
-.companys-item {
-	opacity: 0.3;
-}
-
+@import "-button";
 
 @import "-titles.scss";
 
 
-.choice {
-	padding: 45px 0;
 
-	&__top {
-		padding-left: 68px;
-	}
+@import "-about.scss";
 
-	&__bottom {
+@import "-choice.scss";
 
-		&__icon {
-			min-width: 24px;
-			min-height: 24px;
-		}
+@import "-increase.scss";
 
-		&__text {
-			padding: 0 45px 0 30px;
-		}
-	}
-
-	&_grid-body {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: repeat(2, 1fr);
-		row-gap: 40px;
-
-		padding-left: 55px;
-	}
-
-	&_grid-item {
-		display: flex;
-	}
-
-}
-
-.increase {
-	padding: 128px 51px 77px 79px;
-
-	&__content {
-		display: flex;
-
-		&__left {}
-
-		&__right {
-			display: flex;
-			flex: 0 0 442px;
-		}
-	}
-}
-
-@import "./-ways.scss"
+@import ".-ways.scss";

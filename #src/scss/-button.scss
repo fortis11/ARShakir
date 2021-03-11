@@ -1,0 +1,41 @@
+.button {
+	border-radius: 4px;
+	padding: 8px 27px;
+	color: #ffffff;
+	font-family: Rubik;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	line-height: 20px;
+	text-align: center;
+	text-transform: uppercase;
+
+	&-border {
+		background-color: rgba(0, 0, 0, 0);
+		border: 1px solid #f2994a;
+		color: #f2994a;
+
+		&__about-us {
+			padding: 13px 57px;
+		}
+	}
+
+	&-filled {
+		background-color: #f2994a;
+		padding: 8px 27px;
+		box-shadow: -11px 18px 37px rgba(242, 153, 74, 0.23);
+
+		&__header {
+			margin-left: 20px;
+		}
+
+		&__about-us {
+			padding: 13px 30px;
+			margin-right: 16px;
+		}
+
+		&__increase {
+			padding: 14px 30px;
+		}
+	}
+}

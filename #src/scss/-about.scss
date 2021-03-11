@@ -1,0 +1,43 @@
+.about {
+	padding: 56px 0;
+
+	&-us {
+		display: flex;
+
+		&__group {
+			display: flex;
+			flex: 1 1 50%;
+			flex-direction: column;
+			padding-left: 5px;
+
+			&_inner {
+				margin-top: 58px;
+				display: flex;
+
+				&_video {
+					height: 80px;
+					width: 140px;
+				}
+
+				&_other {
+					margin-left: 20px;
+				}
+			}
+		}
+
+		&__photo {
+			display: flex;
+			flex: 1 1 50%;
+		}
+	}
+
+	&-companys {
+		display: flex;
+		justify-content: space-between;
+		padding: 106px 60px 0 60px;
+	}
+}
+
+.companys-item {
+	opacity: 0.3;
+}

@@ -1,0 +1,33 @@
+.choice {
+	padding: 45px 0;
+
+	&__top {
+		padding-left: 68px;
+	}
+
+	&__bottom {
+
+		&__icon {
+			min-width: 24px;
+			min-height: 24px;
+		}
+
+		&__text {
+			padding: 0 45px 0 30px;
+		}
+	}
+
+	&_grid-body {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		row-gap: 40px;
+
+		padding-left: 55px;
+	}
+
+	&_grid-item {
+		display: flex;
+	}
+
+}
