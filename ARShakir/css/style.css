@@ -307,60 +307,8 @@ body {
   padding: 0 10px;
 }
 
-.header {
-  background-image: url(../img/);
-}
-
-.header__group {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 79px 0;
-}
-
-.header__group__ls {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.logo {
-  width: 36px;
-  height: 36px;
-  margin-right: 33px;
-}
-
-.nav__group {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.nav__item {
-  padding: 0 11px;
-}
-
-.nav__text {
-  color: #b5b5b5;
-  font-family: "Gilroy";
-  font-size: 12px;
-  font-weight: 600;
-  font-style: normal;
-  letter-spacing: 2px;
-  line-height: 20px;
-  text-transform: uppercase;
-}
-
 .button {
+  display: inline-block;
   border-radius: 4px;
   padding: 8px 27px;
   color: #ffffff;
@@ -401,6 +349,10 @@ body {
 
 .button-filled__increase {
   padding: 14px 30px;
+}
+
+.button-filled__project {
+  padding: 17px 31px;
 }
 
 .-s_title {
@@ -452,6 +404,16 @@ body {
   line-height: 42px;
   text-align: center;
   padding-bottom: 17px;
+}
+
+.-s_title__project {
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.-s_title__project span {
+  color: #f2994a;
 }
 
 .-s_subtitle {
@@ -546,6 +508,59 @@ body {
   line-height: 22px;
   text-align: left;
   margin-top: 8px;
+}
+
+.header {
+  background-image: url(../img/);
+}
+
+.header__group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 79px 0;
+}
+
+.header__group__ls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+  margin-right: 33px;
+}
+
+.nav__group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__item {
+  padding: 0 11px;
+}
+
+.nav__text {
+  color: #b5b5b5;
+  font-family: "Gilroy";
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-transform: uppercase;
 }
 
 .about {
@@ -694,4 +709,18 @@ body {
 .ways__bottom__item:last-of-type {
   max-width: 220px;
   padding-right: 10px;
+}
+
+.project {
+  padding: 104px 10px;
+}
+
+.project__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 46px;
 }

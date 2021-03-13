@@ -1,0 +1,13 @@
+.project {
+	padding: 104px 10px;
+
+	&__content {}
+
+	&__text {}
+
+	&__button {
+		display: flex;
+		justify-content: center;
+		padding-top: 46px;
+	}
+}

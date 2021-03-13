@@ -47,6 +47,16 @@
 		text-align: center;
 		padding-bottom: 17px;
 	}
+
+	&__project {
+		font-size: 42px;
+		line-height: 50px;
+		text-align: center;
+
+		& span {
+			color: #f2994a;
+		}
+	}
 }
 
 
@@ -119,7 +129,6 @@
 	}
 }
 
-.-s_subtitle_l2 {}
 
 .-s_subtitle_rubik {
 	color: #8476aa;

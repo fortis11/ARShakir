@@ -13,14 +13,15 @@ body {
 }
 
 
+
+@import "-button.scss";
+
+@import "-text.scss";
+
+
+
+
 @import "-header.scss";
-
-
-
-@import "-button";
-
-@import "-titles.scss";
-
 
 
 @import "-about.scss";
@@ -30,3 +31,5 @@ body {
 @import "-increase.scss";
 
 @import "-ways.scss";
+
+@import "-project.scss"
